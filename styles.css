@@ -1,10 +1,4 @@
-link {
-
-}
-
-
-
-meta {
+*meta {
 
 }
 
@@ -13,92 +7,212 @@ meta {
 title {
 
 }
+
+
+
+link {
+
+}
 * {
-    background-color:#1f2937
+    background-color: #1f2937;
 }
 
 
-
-div.header-nav {
-    display: flex;
-    background-color:#1f2937;
-    flex-grow: 1;
-    justify-content:space-between;
-    border: 5px solid white;
-
-
+div.titlebar {
+    border-style:groove;
+    border: solid white 3px;
 }
 
-div.header-nav h4 {
+div.titlebar h3 {
     color: #f9faf8;
-
-
-}
-
-
-
-div.header-nav nav {
-    align-self:center;
-
-}
-
-
-
-
-
-div.container-one {
-    display: inline;
-    
-    background-color: #1f2937;
-
-}
-
-div.container-one h1 {
-    display: flex;
-    background-color: #1f2937;
-    color: #f1faf8;
-    font-size: 48px;
-    font-weight: bolder;
-
-}
-
-
-
-
-
-
-#lightbulb {
-    display: flex;
-   height: 200px;
-   width: 200px;
-   position:absolute;
-   top: 30%;
-   left: 60%;
-   justify-items: flex-end;
-   background-color:#1f2937;
-}
-
-
-
-p {
-    display: inline-flex;
-    justify-content:flex-end;
-    background-color: #1f2937;
-    color: #f1faf8;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 24px;
-    font-weight: bold;
+    font-weight:bolder;
 }
 
 
 
+div.titlebar div.navbar {
+
+}
+
+div.titlebar div.navbar nav {
+
+}
+
+div.titlebar div.navbar nav undefined {
+
+}
 
 
-button {
-    color:#f1faf8;
-    display: inline-flex;
-    position: absolute;
-    top: 600px;
-    left: 10px;
+
+div.titlebar hr {
+
+}
+
+
+
+div.titlebar div#hero.container.hero {
+    border-style:groove;
+    border: solid white 3px;
+    color:#f9faf8;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    background-image:url("https://images.freecreatives.com/wp-content/uploads/2016/04/Website-Backgrounds-For-Desktop.jpg");
+}
+
+div.titlebar div#hero.container.hero h1 {
+    justify-content: flex-start;
+}
+
+
+
+div.titlebar div#hero.container.hero p {
+    justify-content: center;
+    align-items:flex-start;
+}
+
+div.titlebar div#hero.container.hero p br {
+
+}
+
+
+
+div.titlebar div#hero.container.hero img {
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+
+
+
+div.titlebar div#hero.container.hero button.submit {
+
+}
+
+
+
+div.titlebar div#gallery.lightbox {
+
+}
+
+div.titlebar div#gallery.lightbox div.img1 {
+
+}
+
+div.titlebar div#gallery.lightbox div.img1 figure {
+
+}
+
+
+
+div.titlebar div#gallery.lightbox div.img1 figcaption {
+
+}
+
+
+
+div.titlebar div#gallery.lightbox div.img2 {
+
+}
+
+div.titlebar div#gallery.lightbox div.img2 figure {
+
+}
+
+
+
+div.titlebar div#gallery.lightbox div.img2 figcaption {
+
+}
+
+
+
+div.titlebar div#gallery.lightbox div.img3 {
+
+}
+
+div.titlebar div#gallery.lightbox div.img3 figure {
+
+}
+
+
+
+div.titlebar div#gallery.lightbox div.img3 figcaption {
+
+}
+
+
+
+div.titlebar div#gallery.lightbox div.img4 {
+
+}
+
+div.titlebar div#gallery.lightbox div.img4 figure {
+
+}
+
+
+
+div.titlebar div#gallery.lightbox div.img4 figcaption {
+
+}
+
+
+
+div.titlebar br {
+
+}
+
+
+
+div.titlebar div#call.pitch {
+
+}
+
+div.titlebar div#call.pitch h2 {
+
+}
+
+
+
+div.titlebar div#call.pitch div.quote {
+
+}
+
+
+
+div.titlebar div#call.pitch div.container-form {
+
+}
+
+
+
+div.titlebar div#call.pitch div.form {
+
+}
+
+div.titlebar div#call.pitch div.form form.form-example {
+
+}
+
+div.titlebar div#call.pitch div.form form.form-example div.form-example {
+
+}
+
+div.titlebar div#call.pitch div.form form.form-example div.form-example label {
+
+}
+
+
+
+div.titlebar div#call.pitch div.form form.form-example div.form-example input#name {
+
+}
+
+
+
+div.titlebar footer {
 
 }
 

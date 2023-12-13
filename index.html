@@ -1,45 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="/home/khai/repos/topl/styles.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Landing Page</title>
-</head>
+    <title>Document</title>
+    <link href="styles.css" rel="stylesheet">
+    </head>
 <body>
-    <div class="header-nav">
-        <h4>Company Name</h4>
+    <div class="titlebar">
+        <h3>Treelight Innovations</h3>
+    <div class="navbar">
         <nav>
-            <a class="l1">header link 1</a>
-            <a class="l2">header link 2</a>
-            <a class="l3">header link 3</a>
+            <!--INSERT NAVLINKS  -->
         </nav>
     </div>
-    <div class="container-one">
-        <h1>The General Premise</h1>
-   
-            <img src="https://cdn.pixabay.com/photo/2017/09/10/03/52/lightbulb-2734282__340.jpg" alt="lightbulb in mind" height="150" width="150" id="lightbulb">
-            <p>this is a paragraph element. It is one <br>of the basic
-                building blocks <br>of HTML. We use paragraphs to <br> contain 
-                text with information <br> regarding the website.</p>
-           
-            <button type="submit">Sign up</button>
-
-    </div>
-    <div class="box2">
-        <h3>SOME RANDOM INFORMTION</h3>
-        
-        <div class="img_container">
-            <figure>
-                <img src="/home/khai/Pictures/river.svg" alt="a river scene">
-                    <figcaption>some subtext beneath a figure.</figcaption>
-            </figure>
+    <hr>
+        <div id="hero" class="container hero">
+            <h1>Web Design by Treelight</h1>
+                <p>We bring the light of innovation<br>
+        to your business, club, organization<br>
+        or group.  We pride ourselves on blending<br>
+        the modern and the classic. Responsive,<br>
+        artfully designed web pages and apps for<br>
+        what ever the need.</p>
+                    <img src="https://images.freecreatives.com/wp-content/uploads/2016/04/Website-Backgrounds-For-Desktop.jpg" alt="an abstract image" height="150px" width="150px">
+                <button class="submit">Contact Us Today</button>
         </div>
-        <div class="img_container"></div>
-        <div class="img_container"></div>
-        <div class="img_container"></div>
+            
+    <hr>
+    <div id="gallery" class="lightbox">
+        <div class="img1">
+            <figure></figure>
+                <figcaption>Some subtext beneath an image</figcaption>
+        </div>
+        <div class="img2">
+            <figure></figure>
+                <figcaption>Some subtext beneath an image</figcaption>
+        </div>
+        <div class="img3">
+            <figure></figure>
+                <figcaption>Some subtext beneath an image</figcaption>
+        </div>
+        <div class="img4">
+            <figure></figure>
+                <figcaption>Some subtext beneath an image</figcaption>
+        </div>
+       
     </div>
-</div>
+    <br>
+    <div id="call" class="pitch">
+            <h2>Do Things! Join Us! Subscribe!</h2>
+        <div class="quote">this would be an inspiring quote</div>
+            <div class="container-form"></div>
+                <div class="form">
+                    <form action="" method="get" class="form-example">
+                        <div class="form-example">
+                          <label for="name">Enter your name: </label>
+                          <input type="text" name="name" id="name" required />
+                        </div>
+                        <div class="form-example">
+                          <label for="email">Enter your email: </label>
+                          <input type="email" name="email" id="email" required />
+                        </div>
+                        <div class="form-example">
+                          <input type="submit" value="Subscribe!" />
+                        </div>
+                      </form>
+                      
+                </div>
+    </div>
+    <br>
+    <footer></footer>
+
     
 </body>
 </html>
